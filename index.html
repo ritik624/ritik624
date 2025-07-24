@@ -1,1 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MR_TAXI - Car Rental Services & Tours in Indore</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <i class="fas fa-car"></i>
+                        <div class="notification-dot"></div>
+                    </div>
+                    <div class="logo-text">
+                        <h1>MR_TAXI</h1>
+                        <p>Car Rental & Tours</p>
+                    </div>
+                </div>
 
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav">
+                    <a href="#home" class="nav-link">
+                        <span>Home</span>
+                        <div class="nav-underline"></div>
+                    </a>
+                    <a href="#services" class="nav-link">
+                        <span>Services</span>
+                        <div class="nav-underline"></div>
+                    </a>
+                    <a href="#about" class="nav-link">
+                        <span>About</span>
+                        <div class="nav-underline"></div>
+                    </a>
+                    <a href="#contact" class="nav-link">
+                        <span>Contact</span>
+                        <div class="nav-underline"></div>
+                    </a>
+                </nav>
+
+                <!-- Contact Info -->
+                <div class="header-contact">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <span>+91 9977651942</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <span>Indore, MP</span>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav" id="mobileNav">
+                <div class="mobile-nav-content">
+                    <a href="#home" class="mobile-nav-link">Home</a>
+                    <a href="#services" class="mobile-nav-link">Services</a>
+                    <a href="#about" class="mobile-nav-link">About</a>
+                    <a href="#contact" class="mobile-nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Background Elements -->
+        <div class="hero-bg">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+
+        <!-- Floating Icons -->
+        <div class="floating-icons">
+            <i class="fas fa-sparkles floating-icon icon-1"></i>
+            <i class="fas fa-bolt floating-icon icon-2"></i>
+            <i class="fas fa-star floating-icon icon-3"></i>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-text" id="heroText">Your Trusted Travel Partner</span>
+                    <br>
+                    <span class="gradient-text">in Indore</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    Experience premium car rental services, reliable taxi solutions, and unforgettable tours 
+                    across Indore and beyond. Travel in comfort with 
+                    <span class="highlight">MR_TAXI</span>.
+                </p>
+
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        <span>Book Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                        <div class="btn-overlay"></div>
+                    </button>
+                    <button class="btn btn-secondary">
+                        <div class="status-dot"></div>
+                        <span>Call +91 9977651942</span>
+                    </button>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="stat-content">
+                            <span class="stat-value">4.9</span>
+                            <p class="stat-label">Customer Rating</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <span class="stat-value">5000+</span>
+                            <p class="stat-label">Happy Customers</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="stat-content">
+                            <span class="stat-value">24/7</span>
+                            <p class="stat-label">Service Available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <!-- Background Elements -->
+        <div class="section-bg">
+            <div class="bg-blob bg-blob-1"></div>
+            <div class="bg-blob bg-blob-2"></div>
+        </div>
+
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <i class="fas fa-sparkles floating-element element-1"></i>
+            <i class="fas fa-clock floating-element element-2"></i>
+            <i class="fas fa-shield-alt floating-element element-3"></i>
+        </div>
+
+        <div class="services-container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">
+                    Comprehensive transportation solutions tailored to your needs with 
+                    <span class="highlight">premium quality</span> and 
+                    <span class="highlight">exceptional service</span>
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-service="0">
+                    <div class="service-bg"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                        <div class="icon-sparkle sparkle-1"></div>
+                        <div class="icon-sparkle sparkle-2"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Car Rental</h3>
+                        <p>Premium cars for self-drive or with experienced drivers. Perfect for daily commutes, weekend trips, or special occasions.</p>
+                        <ul class="service-features">
+                            <li><div class="feature-dot"></div>Self-drive options</li>
+                            <li><div class="feature-dot"></div>Chauffeur driven</li>
+                            <li><div class="feature-dot"></div>Daily/Weekly/Monthly</li>
+                            <li><div class="feature-dot"></div>Well-maintained fleet</li>
+                        </ul>
+                    </div>
+                    <div class="service-overlay"></div>
+                    <button class="service-btn">Learn More</button>
+                </div>
+
+                <div class="service-card" data-service="1">
+                    <div class="service-bg"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-taxi"></i>
+                        <div class="icon-sparkle sparkle-1"></div>
+                        <div class="icon-sparkle sparkle-2"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Taxi Services</h3>
+                        <p>Reliable taxi services for airport transfers, city tours, and point-to-point transportation across Indore.</p>
+                        <ul class="service-features">
+                            <li><div class="feature-dot"></div>Airport transfers</li>
+                            <li><div class="feature-dot"></div>City rides</li>
+                            <li><div class="feature-dot"></div>Outstation trips</li>
+                            <li><div class="feature-dot"></div>AC vehicles</li>
+                        </ul>
+                    </div>
+                    <div class="service-overlay"></div>
+                    <button class="service-btn">Learn More</button>
+                </div>
+
+                <div class="service-card" data-service="2">
+                    <div class="service-bg"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <div class="icon-sparkle sparkle-1"></div>
+                        <div class="icon-sparkle sparkle-2"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Tour & Travels</h3>
+                        <p>Explore Indore and nearby attractions with our customized tour packages and travel solutions.</p>
+                        <ul class="service-features">
+                            <li><div class="feature-dot"></div>Local sightseeing</li>
+                            <li><div class="feature-dot"></div>Outstation tours</li>
+                            <li><div class="feature-dot"></div>Group travel</li>
+                            <li><div class="feature-dot"></div>Customized itineraries</li>
+                        </ul>
+                    </div>
+                    <div class="service-overlay"></div>
+                    <button class="service-btn">Learn More</button>
+                </div>
+            </div>
+
+            <div class="services-cta">
+                <button class="btn btn-primary btn-large">
+                    <span>Get Started Today</span>
+                    <div class="btn-overlay"></div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <!-- Background Elements -->
+        <div class="section-bg">
+            <div class="bg-blob bg-blob-3"></div>
+            <div class="bg-blob bg-blob-4"></div>
+        </div>
+
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <i class="fas fa-heart floating-element element-4"></i>
+            <i class="fas fa-star floating-element element-5"></i>
+            <i class="fas fa-bolt floating-element element-6"></i>
+            <i class="fas fa-bullseye floating-element element-7"></i>
+        </div>
+
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">
+                        About <span class="gradient-text">MR_TAXI</span>
+                    </h2>
+                    
+                    <div class="about-description">
+                        <p>
+                            MR_TAXI has been serving the people of Indore with reliable and comfortable transportation 
+                            services for over a decade. We pride ourselves on being the most 
+                            <span class="highlight">trusted car rental</span> and 
+                            tour service provider in the city.
+                        </p>
+                        
+                        <p>
+                            Our mission is to make your journey comfortable, safe, and memorable. Whether you need 
+                            a quick ride across the city, a premium car for a special occasion, or a guided tour 
+                            of Indore's beautiful attractions, we've got you covered with 
+                            <span class="highlight">exceptional service</span>.
+                        </p>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <div class="stat-number" data-target="10">0</div>
+                            <div class="stat-text">Years Experience</div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="stat-number" data-target="50">0</div>
+                            <div class="stat-text">Fleet Vehicles</div>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary">
+                        <span>Discover Our Story</span>
+                        <div class="btn-overlay"></div>
+                    </button>
+                </div>
+
+                <div class="about-features">
+                    <div class="feature-card" data-feature="0">
+                        <div class="feature-bg"></div>
+                        <div class="feature-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Excellence in Service</h3>
+                            <p>Committed to providing top-notch transportation services with a focus on customer satisfaction.</p>
+                        </div>
+                        <div class="feature-overlay"></div>
+                    </div>
+
+                    <div class="feature-card" data-feature="1">
+                        <div class="feature-bg"></div>
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>24/7 Availability</h3>
+                            <p>Round-the-clock service availability to cater to your transportation needs anytime.</p>
+                        </div>
+                        <div class="feature-overlay"></div>
+                    </div>
+
+                    <div class="feature-card" data-feature="2">
+                        <div class="feature-bg"></div>
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Experienced Drivers</h3>
+                            <p>Professional and courteous drivers with extensive knowledge of Indore and surrounding areas.</p>
+                        </div>
+                        <div class="feature-overlay"></div>
+                    </div>
+
+                    <div class="feature-card" data-feature="3">
+                        <div class="feature-bg"></div>
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Safe & Secure</h3>
+                            <p>Well-maintained vehicles with comprehensive insurance and safety measures for your peace of mind.</p>
+                        </div>
+                        <div class="feature-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <!-- Background Elements -->
+        <div class="section-bg">
+            <div class="bg-blob bg-blob-5"></div>
+            <div class="bg-blob bg-blob-6"></div>
+        </div>
+
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <i class="fas fa-sparkles floating-element element-8"></i>
+            <i class="fas fa-comment floating-element element-9"></i>
+            <i class="fas fa-paper-plane floating-element element-10"></i>
+        </div>
+
+        <div class="contact-container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Get In <span class="gradient-text">Touch</span>
+                </h2>
+                <p class="section-subtitle">
+                    Ready to book your ride or have questions? We're here to help you 
+                    <span class="highlight">24/7</span>
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card" data-contact="0">
+                        <div class="contact-bg"></div>
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p class="contact-subtitle">Call us anytime</p>
+                            <div class="contact-values">
+                                <p>+91 9977651942</p>
+                                <p>+91 9977651942</p>
+                            </div>
+                        </div>
+                        <div class="contact-sparkle"></div>
+                    </div>
+
+                    <div class="contact-card" data-contact="1">
+                        <div class="contact-bg"></div>
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p class="contact-subtitle">Send us a message</p>
+                            <div class="contact-values">
+                                <p>mrtaxi105@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-sparkle"></div>
+                    </div>
+
+                    <div class="contact-card" data-contact="2">
+                        <div class="contact-bg"></div>
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Address</h3>
+                            <p class="contact-subtitle">Visit our office</p>
+                            <div class="contact-values">
+                                <p>27_B Kailashpuri colony</p>
+                                <p>Indore, Madhya Pradesh 452016</p>
+                            </div>
+                        </div>
+                        <div class="contact-sparkle"></div>
+                    </div>
+
+                    <div class="contact-card" data-contact="3">
+                        <div class="contact-bg"></div>
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Hours</h3>
+                            <p class="contact-subtitle">We're always available</p>
+                            <div class="contact-values">
+                                <p>24/7 Service Available</p>
+                            </div>
+                        </div>
+                        <div class="contact-sparkle"></div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <div class="contact-form-wrapper">
+                        <div class="form-bg"></div>
+                        <div class="contact-form-content">
+                            <h3>Send Message</h3>
+                            
+                            <form id="contactForm" class="contact-form">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" name="name" placeholder="Your name" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>Phone</label>
+                                    <input type="tel" name="phone" placeholder="Your phone number" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>Service</label>
+                                    <select name="service">
+                                        <option>Car Rental</option>
+                                        <option>Taxi Service</option>
+                                        <option>Tour & Travels</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>Message</label>
+                                    <textarea name="message" rows="4" placeholder="Tell us about your requirements..."></textarea>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                                    <i class="fas fa-comment"></i>
+                                    <span>Send Message</span>
+                                    <div class="btn-overlay"></div>
+                                </button>
+                            </form>
+
+                            <div class="form-success" id="formSuccess">
+                                <div class="success-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <h4>Message Sent!</h4>
+                                <p>Thank you for contacting us. We'll get back to you soon!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Background Elements -->
+        <div class="footer-bg">
+            <div class="footer-blob footer-blob-1"></div>
+            <div class="footer-blob footer-blob-2"></div>
+        </div>
+
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <i class="fas fa-sparkles floating-element element-11"></i>
+            <i class="fas fa-heart floating-element element-12"></i>
+            <i class="fas fa-sparkles floating-element element-13"></i>
+        </div>
+
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">
+                            <i class="fas fa-car"></i>
+                            <div class="logo-notification"></div>
+                        </div>
+                        <div class="footer-logo-text">
+                            <h3>MR_TAXI</h3>
+                            <p>Car Rental & Tours</p>
+                        </div>
+                    </div>
+                    
+                    <p class="footer-description">
+                        Your trusted partner for car rental, taxi services, and memorable tours in Indore. 
+                        Experience premium transportation with exceptional service.
+                    </p>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Car Rental</a></li>
+                        <li><a href="#">Taxi Service</a></li>
+                        <li><a href="#">Airport Transfer</a></li>
+                        <li><a href="#">Tour & Travels</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <div class="footer-contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <span>+91 9977651942</span>
+                        </li>
+                        <li>
+                            <div class="footer-contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <span>mrtaxi105@gmail.com</span>
+                        </li>
+                        <li>
+                            <div class="footer-contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <span>27 B kailashpuri colony<br>Indore, MP 452016</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>© 2024 MR_TAXI Car Rental Services. All rights reserved.</p>
+                    <div class="footer-made-with">
+                        <span>Made with</span>
+                        <i class="fas fa-heart"></i>
+                        <span>in Indore</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
